@@ -6,3 +6,20 @@ section{max-width:900px;margin:auto;padding:20px}
 .cards{display:flex;flex-wrap:wrap;gap:15px}
 .card{background:white;padding:15px;border-radius:10px;box-shadow:0 2px 6px rgba(0,0,0,.1);flex:1;min-width:180px}
 footer{text-align:center;padding:20px;background:#222;color:white}
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.social-links a:hover {
+    transform: scale(1.05);
+}
